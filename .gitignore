@@ -1,0 +1,5 @@
+/dist
+/.vscode
+/.metals
+/node_modules
+/package-lock.json

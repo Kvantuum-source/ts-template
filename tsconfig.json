@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "esnext",
+		"moduleResolution": "node",
+        "declaration": true,
+		"allowJs": true,
+		"strict": true,
+		"esModuleInterop": true,
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true
+	},
+	"include": [
+		"src"
+	]
+}

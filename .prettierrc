@@ -1,0 +1,7 @@
+{
+    "bracketSpacing": true,
+    "semi": false,
+    "useTabs": true,
+    "trailingComma": "none",
+    "parser": "typescript"
+}
