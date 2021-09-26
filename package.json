@@ -8,7 +8,7 @@
     "test": "npm run compile && node dist/main",
     "compile": "npm run lint && npm run build",
     "lint": "npm run lint:prettier && npm run lint:eslint",
-    "lint:prettier": "prettier --config .prettierrc \"src/**.{ts,js}\" --write",
+    "lint:prettier": "prettier --config .prettierrc \"**.ts\" --write",
     "lint:eslint": "eslint . --ext .ts --fix",
     "build": "npm run build:compileBabelTS && npm run build:js && rimraf tmp/**",
     "build:compileBabelTS": "babel src --out-dir tmp --keep-file-extension --extensions \".ts\"",
